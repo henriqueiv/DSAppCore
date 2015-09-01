@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>taskId</key>
+	<string>DSBloodPressureTask</string>
+	<key>frequencyType</key>
+	<string>daily</string>
+	<key>frequencyNumber</key>
+	<string>6</string>
+	<key>name</key>
+	<string>Blood Pressure Task</string>
+	<key>type</key>
+	<string>Survey</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>answerUnit</key>
+			<string>mmHg</string>
+			<key>answerRange</key>
+			<dict>
+				<key>minimum</key>
+				<integer>0</integer>
+				<key>maximum</key>
+				<integer>190</integer>
+			</dict>
+			<key>answerType</key>
+			<string>NSNumber</string>
+			<key>prompt</key>
+			<string>Measure the blood pressure please.</string>
+			<key>questionId</key>
+			<string>systolic</string>
+			<key>dashboard</key>
+			<dict>
+				<key>graphicType</key>
+				<string></string>
+				<key>xAxisColName</key>
+				<string>questionId</string>
+				<key>yAxisColName</key>
+				<string>DSDateColName</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>answerUnit</key>
+			<string>mmHg</string>
+			<key>answerRange</key>
+			<dict>
+				<key>minimum</key>
+				<integer>0</integer>
+				<key>maximum</key>
+				<integer>100</integer>
+			</dict>
+			<key>answerType</key>
+			<string>NSNumber</string>
+			<key>prompt</key>
+			<string>Measure the blood pressure please.</string>
+			<key>questionId</key>
+			<string>diastolic</string>
+			<key>dashboard</key>
+			<dict>
+				<key>graphicType</key>
+				<string></string>
+				<key>xAxisColName</key>
+				<string>questionId</string>
+				<key>yAxisColName</key>
+				<string>DSDateColName</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

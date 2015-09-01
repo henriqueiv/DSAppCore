@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>taskId</key>
+	<string>DSO2SaturationTask</string>
+	<key>frequencyType</key>
+	<string>daily</string>
+	<key>frequencyNumber</key>
+	<string>6</string>
+	<key>name</key>
+	<string>O2 Saturation</string>
+	<key>type</key>
+	<string>Survey</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>answerRange</key>
+			<dict>
+				<key>maximum</key>
+				<integer>100</integer>
+				<key>minimum</key>
+				<integer>0</integer>
+			</dict>
+			<key>answerUnit</key>
+			<string>%</string>
+			<key>answerType</key>
+			<string>NSNumber</string>
+			<key>prompt</key>
+			<string>Measure the O2 saturation please.</string>
+			<key>questionId</key>
+			<string>saturation</string>
+		</dict>
+	</array>
+</dict>
+</plist>
